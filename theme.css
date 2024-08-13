@@ -106,6 +106,7 @@ html, body{
 
     .responsive-image {
         width: 100%; /* Full width for mobile */
+        max-width: 400px;
         padding-top: 1em;
         padding-bottom: 1em;
     }
