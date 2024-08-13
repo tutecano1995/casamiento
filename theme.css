@@ -92,8 +92,21 @@ html, body{
     width: 100%
 }
 
+.responsive-image {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    width: 50%; /* Default width for larger screens */
+    height: auto; /* Maintain aspect ratio */
+}
+
 @media only screen and (max-width: 600px) {
     .heading {
         font-size: 4em;
+    }
+
+    .responsive-image {
+        width: 100%; /* Full width for mobile */
+        padding-top: 1em;
+        padding-bottom: 1em;
     }
   }
